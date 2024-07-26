@@ -1,0 +1,118 @@
+
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+   
+    <header>
+        <nav>
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo right">HAMBAT</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Works</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Works</a></li>
+        </ul>
+        
+      </header>
+    
+      
+      <section id="home">
+        <div class="container">
+          <div class="row">
+            <div class="hide-on-med-and-down">
+              <div class="col l2 s12 m12">
+                  <img src="three.jpg" alt="Description of Image" class=" daa  materialboxed" width="400px" style="padding-top: 20px;">
+              </div>
+              <div class=" big col l8 s12 m12 push-l2">
+                  <h4 class="head center-align" style="font-weight: bold;" style="color:rgb(105, 43,51)">Akinwunmi Hafeezah Mayowa</h4>
+                  <p class="pa  center-align" style="color: rgb(49, 47, 47);" >Student Web Developer | Fashion Designer </p>
+                  <!-- <br><br> -->
+                  <center><a href="works" class="btn btn-header btn-large" style=" background-color:rgb(105, 43,51);margin-top: 20px; padding:0px 56px 0px 56px">Works <i class="material-icons right">touch_app</i></a></center>
+              </div>
+            </div>
+            <div class="hide-on-large-only">
+              <div class="col l6 s12 m12">
+                <img src="LI.jpg" alt="Description of Image" class="responsive-img materialboxed" style="padding-top: 20px;">
+            </div>
+              <div class="col l6 s12 m12 " style=" padding-top: 5px;">
+                  <h5 style="text-align: center;" style="color:rgb(105, 43,51)">Akinwunmi Hafeezah</h5>
+                  <p class="center-align " style="font-size: 18px; color: rgb(49, 47, 47);">Student Web Developer | Designer </p>
+                 <center><a href="works" class="btn btn-header btn-large" style=" background-color:rgb(105, 43,51);margin: 23px;" >Explore More <i class="material-icons right">border_color</i></a></center>
+              </div>
+          </div>
+          </div>
+         
+        </div>
+      </section>
+  
+ <!-- footer -->
+ <footer class="page-footer">
+  <div class="container">
+      <div class="row">
+           <div class="col s12 l5">
+               <h5>HAMBAT</h5>
+               <p style="text-align: justify !important;">As a dedicated and experienced web developer, I specialize in creating high-quality, tailored solutions that meet your needs. Whether you need a new website, a web application, or enhancements to an existing platform, I’m here to bring your vision to life with precision and creativity. Let’s work together to achieve exceptional results.</p>
+           </div>
+           <div class="col s12 l4 offset-l3">
+               <h5>Connect</h5>
+               <ul>
+                 <li><a href="" class="btn-floating btn-small" style="background-color: rgb(49, 47, 47);" data-position="bottom">
+                <i class="fab fa-facebook"></i>
+                </a> Facebook</li><br>
+                <li><a href="" class="btn-floating btn-small" style="background-color: rgb(49, 47, 47);" data-position="bottom">
+                  <i class="fab fa-instagram"></i>
+                  </a> Instagram</li><br>
+                  <li><a href="" class="btn-floating btn-small" style="background-color: rgb(49, 47, 47);" data-position="bottom">
+                    <i class="material-icons">phone</i>
+                    </a> 08149454363</li><br>
+               </ul>
+           </div>
+ 
+      </div>
+   </div>
+
+  <div class="footer-copyright" style="background-color: rgb(49, 47, 47);">
+      <div class="container">
+              <p class="center-align">&copy; 2024  Designed by  HAMBAT. All rights reserved</p>
+      </div>
+  </div>
+</footer>
+  <!--JavaScript at end of body for optimized loading-->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+  
+    });
+  </script>
+
+<div class="sidenav-overlay"></div><div class="drag-target"></div></body></html>

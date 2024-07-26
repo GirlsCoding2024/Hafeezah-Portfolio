@@ -1,0 +1,117 @@
+nav{
+    background-color:rgb(105, 43,51) !important;
+}
+
+.daa {
+    height: 500px;
+}
+.prob{
+    color:rgb(105, 43,51) !important;
+}
+.flow-text{
+    color: white;
+}
+
+.head{
+    color:rgb(105, 43,51) !important;
+}
+
+   .para{
+    text-align: justify !important;
+     hyphens: auto;
+   }
+
+   * {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+    .fish, b{
+       font-size: 15px; 
+       font-weight: bold;
+   }
+
+   
+   li>a:hover{
+       color: #727272;
+   }
+   div .hoverable{
+       height: 350px !important;
+     }
+   
+
+   
+   #body{
+       font-weight: 400;
+       font-style: normal;
+   }
+   
+   @media (min-width: 1367px) {
+      div .big{
+           padding-top: 150px !important; 
+           
+       }
+       div .big p{
+           font-size: 17px;
+       }
+       .head{
+           font-size: 35px;
+           color:rgb(105, 43,51);
+       }
+
+       
+   }
+   
+   @media (max-width: 1366px){
+   
+       .head{
+           font-size: 30px;
+           padding-top: 90px !important; 
+           color:rgb(105, 43,51);
+           padding-left:65px;
+       }
+       div .big p{
+           font-size: 20px;
+           text-align: center;
+       }
+       .pa{
+        padding-left:60px;
+       }
+   }
+   
+
+
+   @media only screen and (min-width: 993px) {
+    .row .col.push-l2 {
+        left:  29.666667%;
+    }
+}
+footer{
+    background-color: rgb(105, 43,51) !important;
+}
+
+
+#home{
+    height: 600px;
+    /* background-color: rgb(49, 47, 47); */
+    padding-top: 50px;
+}
+span{
+    color: rgb(105, 43,51);
+}
+
+.flow-text{
+    color: rgb(105, 43,51);
+}
+
+.prob{
+    color: rgb(49, 47, 47)!important;
+}
+
+.progress .determinate {
+    background-color: rgb(49, 47, 47);
+}
+/* img{
+    border-radius: 100%;
+} */
